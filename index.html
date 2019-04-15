@@ -36,14 +36,14 @@
         <script>
             $(document).ready(function(){
                 $("div.resume-box").hide();
-                $("button").click(function(){
+            });
+            function open_resume() {
                 $("div.resume-box").toggle();
-            });
-            });
+            }
         </script>
 
         <div class="toggle_button">
-            <button>Click here to display my resume!<br/>(Includes contact information!)<br/></button>
+            <button onclick="open_resume()">Click here to display my resume!<br/>(Includes contact information!)<br/></button>
         </div>
 
         <div class="resume-box">
