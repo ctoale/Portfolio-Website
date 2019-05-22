@@ -203,8 +203,8 @@ main button{
     background-color:  rgb(0, 0, 0,0.5);
 }
 .resume-box{
-    display: flex;
-    justify-content: center;
+    margin: auto;
+    max-width: 480px;
 }
 .skills-wrapper {
 	width: 100%;
@@ -216,9 +216,6 @@ main button{
 	padding: 62px 50px 0px;
     max-width: 935px;
     display: inline-block;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
 }
 .video {
 	display: inline-block;
