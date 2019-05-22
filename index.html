@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i,800,800i,900" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
@@ -36,9 +37,11 @@
         <script>
             $(document).ready(function(){
                 $("div.resume-box").hide();
+                $("div.download").hide();
             });
             function open_resume() {
                 $("div.resume-box").toggle();
+                $("div.download").toggle();
             }
         </script>
 
@@ -46,8 +49,75 @@
             <button onclick="open_resume()">Click here to display my resume!<br/>(Includes contact information!)<br/></button>
         </div>
 
+        <div class="download">
+            <form method="get" action="Connor Toale Resume.docx">
+                <button type="submit">Click here to download a copy of my resume!</button>
+            </form>
+        </div>
         <div class="resume-box">
             <img src="Images/resume.PNG" height="950" width="700" margin="auto">
+        </div>
+    </div>
+    <div class="skills-wrapper">
+        <div class="skills-transparent">
+            <div class="skills">
+                <h2>Skills</h2>
+                <div class="skills-icon-container">
+                    <div class="skills-icon">
+                        <i class="devicon-amazonwebservices-plain-wordmark"></i>
+                    </div>
+                    <div class="skills-icon">
+                        <i class="devicon-apache-line-wordmark"></i>
+                    </div>
+                    <div class="skills-icon">
+                        <i class="devicon-bootstrap-plain-wordmark"></i>
+                    </div>
+                    <div class="skills-icon">
+                        <i class="devicon-css3-plain-wordmark"></i>
+                    </div>
+                    <div class="skills-icon">
+                        <i class="devicon-express-original-wordmark"></i>
+                    </div>
+                    <div class="skills-icon">
+                        <i class="devicon-git-plain-wordmark"></i>
+                    </div>
+                    <div class="skills-icon">
+                        <i class="devicon-html5-plain-wordmark"></i>
+                    </div>
+                    <div class="skills-icon">
+                        <i class="devicon-java-plain-wordmark"></i>
+                    </div>
+                    <div class="skills-icon">
+                        <i class="devicon-javascript-plain"></i>
+                    </div>
+                    <div class="skills-icon">
+                        <i class="devicon-jquery-plain-wordmark"></i>
+                    </div>
+                    <div class="skills-icon">
+                        <i class="devicon-linux-plain"></i>
+                    </div>
+                    <div class="skills-icon">
+                        <i class="devicon-mysql-plain-wordmark"></i>
+                    </div>
+                    <div class="skills-icon">
+                        <i class="devicon-nodejs-plain-wordmark"></i>
+                    </div>
+                    <div class="skills-icon">
+                        <i class="devicon-postgresql-plain-wordmark"></i>
+                    </div>
+                    <div class="skills-icon">
+                        <i class="devicon-python-plain-wordmark"></i>
+                    </div>
+                    </div>
+            </div>
+            <div class="skills-second-container">
+                <div class="skills-icon">
+                    <i class="devicon-react-original-wordmark"></i>
+                </div>
+                <div class="skills-icon">
+                    <i class="devicon-cplusplus-line-wordmark"></i>
+                </div>
+            </div>
         </div>
     </div>
     <div class="featured-wrapper">
@@ -90,6 +160,13 @@
                             <p>Utilizes HTML, CSS, Javascript, and MySQL.</p>
                         </div>
                 </div>
+                <div class="senior">
+                    <img src="Images/KSU_logo.jpg">
+                    <div class="overlay">
+                        <a href="https://github.com/ctoale/Bioinformatics-Senior-Project" target = "_blank"><button type="button">KSU Senior Project</button></a>
+                        <p>A semester-long project undertaken to improve the FASTA software package. Successfully increased efficiency by ~18%.</p>
+                    </div>
+            </div>
             </div>
         </div>
     </div>
