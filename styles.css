@@ -11,7 +11,7 @@ body{
 nav{
     width: 100%;
     display: flex;
-    height: 80px;
+    height: 90px;
     /* margin: 0px 0px 0px 0px; */
     /* position: sticky; */
     position: fixed;
@@ -203,19 +203,8 @@ main button{
     background-color:  rgb(0, 0, 0,0.5);
 }
 .resume-box{
-    display: flex;
-    justify-content: center;
-}
-.featured-wrapper {
-	width: 100%;
-    /* background-color: #eff8ff; */
-    background-image: url("Images/wallpaper5.png");
-	text-align: center;
-}
-.featured {
-	padding: 62px 50px 41px;
-    max-width: 935px;
-    display: inline-block;
+    margin: auto;
+    max-width: 480px;
 }
 .skills-wrapper {
 	width: 100%;
@@ -227,40 +216,11 @@ main button{
 	padding: 62px 50px 0px;
     max-width: 935px;
     display: inline-block;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
-}
-.featured h2 {
-	margin: 20px;
-}
-.featured button {
-	color: black;
-    border: none;
-    background: #A5D8F0;
-    padding: 16px 62px;
-	margin: 16px 6px 25px;
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-}
-.featured button:hover {
-	transition: all 0.7s ease;
-    background-color: #0e5de7;
-}
-.featured img {
-	height: 55px;
 }
 .video {
 	display: inline-block;
 	width: 100%;
 	margin-right: -9px;
-}
-.featured-transparent{
-    background-color:  rgb(0, 0, 0,0.5);
-    color: white;
-}
-.featured p {
-	padding: 18px;
 }
 .skills-transparent{
     background-color:  rgb(0, 0, 0,0.5);
@@ -279,6 +239,7 @@ main button{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .skills-second-container{
     width: 100%;
@@ -286,18 +247,54 @@ main button{
     display: flex;
     flex-wrap: wrap;
 }
-/* .featured-split-video, .featured-split-code {
-    position: relative;
-    display: inline-block;
-} */
+.featured-wrapper {
+	width: 100%;
+    /* background-color: #eff8ff; */
+    background-image: url("Images/wallpaper5.png");
+	text-align: center;
+}
+.featured {
+	padding: 62px 50px 41px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.featured-transparent{
+    background-color:  rgb(0, 0, 0,0.5);
+    color: white;
+}
+.featured p {
+	padding: 18px;
+}
+.featured button:hover {
+	transition: all 0.7s ease;
+    background-color: #0e5de7;
+}
+.featured img {
+	height: 55px;
+}
+.featured h2 {
+	margin: 20px;
+}
+.featured button {
+	color: black;
+    border: none;
+    background: #A5D8F0;
+    padding: 16px 62px;
+	margin: 16px 6px 25px;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
 .featured-split-video{
     position: relative;
+    display: inline-block;
     overflow: hidden;
     padding-bottom: 30%;
     padding-top: 30px;
-    height: 0;
-    padding-left: 43%;
-    display: inline-block;
+    padding-left: 40%;
+    max-height: 315px;
+    max-width: 560px;
 }
 .featured-split-video iframe,
 .featured-split-video object,
@@ -307,8 +304,6 @@ main button{
     left: 0;
     width: 100%;
     height: 100%;
-    max-height: 315px;
-    max-width: 560px;
 }
 .project {
 	border: 4px solid #eaebed;
